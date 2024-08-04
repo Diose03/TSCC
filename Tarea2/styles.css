@@ -1,0 +1,146 @@
+/*Lucia Dioselyn Villa Figueroa*/
+
+body {
+    /* Fuente predeterminada a todo lo que está en el body */
+    font-family: Pacifico, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(216, 181, 255, 0.151);
+}
+
+
+h1 {
+    /* Color de fuente y tamaño para la etiqueta h1*/
+    color: rgb(87, 0, 145);
+    font-size: 35px;
+    text-shadow: rgba(100, 100, 100, 0.9) 10px 10px 10px; 
+}
+
+
+h2 {
+    /* Color de fuente y tamaño para las etiquetas h2*/
+    color: rgb(87, 0, 145);
+    font-size: 20px;
+    text-shadow: rgba(100, 100, 100, 0.9) 5px 3px 5px; 
+}
+
+
+h3 {
+    /* Color de fuente y tamaño para las etiquetas h3*/
+    color: rgb(87, 0, 145);
+    font-size: 15px;
+}
+
+
+strong {
+    /* Color de fuente para las etiqueta strong*/
+    color: rgb(2, 197, 28);
+}
+
+
+em {
+    /* Color de fuente para la etiqueta  em*/
+    color: rgb(25, 144, 255);
+}
+
+
+article p {
+    /* Estilo a todos los elementos p que se encuentren contenidos en article*/
+    background-color: #f9f9f9;
+    color: rgb(145, 0, 56);
+    font-size: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: rgba(14, 2, 24, 0.74) 5px 5px 10px 10px;
+}
+
+
+ul,
+ol {
+    /* Estilo a las listas desordenadas <ul> y listas ordenadas <ol>*/
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: rgba(14, 2, 24, 0.74) 5px 5px 10px 10px;
+}
+
+
+main li {
+    /* Estilo a todos los elementos p que se encuentren contenidos en main*/
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(202, 62, 191);
+}
+
+
+#imagen {
+    /* Tamaño y padding, además de unos filtros */
+    width: 400px;
+    padding: 8px;
+    filter: sepia(0) drop-shadow(10px 10px 12px rgb(77, 0, 87));
+    transition: transform 1s ease-in-out 1s, filter 1s ease-in-out 1s;
+}
+
+
+#imagen:hover {
+    /* Establece lo que ocurrirá cuando la pseudoclase hover se active */
+    transform: scale(1.1);
+    filter: sepia(0.5) drop-shadow(15px 15px 20px rgb(14, 2, 11));
+    border-color: rgb(31, 10, 4);
+}
+
+
+a {
+    /* Estilo para cambiar su color y eliminar el subrayado*/
+    color: rgb(127, 3, 243);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+a:hover {
+    /* Estilo para cambiar el color al pasar el cursor sobre el enlace*/
+    color: rgb(255, 187, 0);
+}
+
+
+header {
+    /* Estilo para <header>*/
+    margin: 30px;
+    padding: 15px;
+    border: 30px solid transparent;
+    border-image-source: url(Images/klipartz.com.png);
+    border-image-slice: 25%;
+    border-image-repeat: round;
+    text-align: center;
+}
+
+
+section,
+article {
+    /* Estilo para <header>*/
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(120, 74, 143, 0.719);
+}
+
+
+footer {
+    /* Estilo para <footer>*/    
+    color: rgb(174, 113, 231);
+    text-align: center;
+    padding: 3px;
+    outline-style: dashed;
+    outline-width: 4px;
+    outline-offset: 5px;
+    margin: 20px 5px;
+    outline-color: rgb(97, 33, 201);
+    background-color: rgba(184, 137, 201, 0.548);
+}
+
+
+footer p {
+    /*Estilo para los elementos p contenidos en <footer>*/
+    color: rgb(145, 0, 56);
+    font-size: 12px;
+    text-align: center;
+}
