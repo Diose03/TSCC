@@ -1,0 +1,354 @@
+/*Lucia Dioselyn Villa Figueroa*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: #ffffff;
+}
+
+body {
+    /* Fuente predeterminada a todo lo que está en el body */
+    background-color: rgba(213, 195, 228, 0.308);
+    font-family: Pacifico, Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* border: solid red; */
+}
+
+header {
+    min-height: 150px;
+    /* Ajusta este valor al tamaño que quieras que sea el mínimo */
+}
+
+#cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 0, 100);
+    min-height: 150px;
+    /* Tamaño mínimo paraque al reducir se mantenga*/
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#cabecera img {
+    width: 150px;
+
+    height: auto;
+}
+
+
+
+#cabecera h1 {
+    text-transform: uppercase;
+    font: 20px 'Arial', sans-serif;
+    color: white;
+    text-shadow: rgba(118, 70, 133, 0.9) 10px 10px 10px;
+}
+
+#cabecera>div {
+    flex: 1;
+    max-width: 960px;
+    text-align: center;
+}
+
+#imagen {
+    margin: 0;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagen img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+
+}
+
+
+hr {
+    border: 0;
+    height: 4px;
+    background: #fff56a;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Se establece la propiedad flex para el nav, y se indica que queremos el contenido
+   justificado en el centro */
+#navegador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 100%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    /* border: solid rgb(187, 255, 0); */
+
+}
+
+#datos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#datos>li {
+    position: relative;
+    display: inline-block;
+    padding-top: 27px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+
+#navegador a {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+
+#datos a:hover {
+    color: rgb(255, 187, 0);
+}
+
+
+
+.icono {
+    width: 24px;
+    height: 24px;
+}
+
+h1 {
+    /* Color de fuente y tamaño para la etiqueta h1*/
+    color: rgb(87, 0, 145);
+    font-size: 35px;
+    text-shadow: rgba(100, 100, 100, 0.9) 10px 10px 10px;
+}
+
+
+h2 {
+    /* Color de fuente y tamaño para las etiquetas h2*/
+    color: rgb(87, 0, 145);
+    font-size: 20px;
+    text-shadow: rgba(100, 100, 100, 0.9) 5px 3px 5px;
+    text-decoration: underline solid rgb(0, 0, 0);
+    text-underline-offset: 8px;
+}
+
+
+h3 {
+    /* Color de fuente y tamaño para las etiquetas h3*/
+    color: rgb(87, 0, 145);
+    font-size: 15px;
+}
+
+
+strong {
+    /* Color de fuente para las etiqueta strong*/
+    color: rgb(2, 197, 28);
+}
+
+
+em {
+    /* Color de fuente para la etiqueta  em*/
+    color: rgb(25, 144, 255);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 0 10% 0 10%;
+    /* border: solid rgb(0, 255, 128); */
+}
+
+main>div {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+
+
+main article {
+    font-size: 18px;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+.biografia {
+    flex: 1;
+
+}
+
+.aside {
+    flex: 1;
+}
+
+
+#imagen {
+    /* Tamaño y padding, además de unos filtros */
+    width: 400px;
+
+    margin: -30px 0px 0px 50px;
+    filter: sepia(0) drop-shadow(10px 10px 12px rgb(77, 0, 87));
+    transition: transform 1s ease-in-out 1s, filter 1s ease-in-out 1s;
+}
+
+
+#imagen:hover {
+    /* Establece lo que ocurrirá cuando la pseudoclase hover se active*/
+    transform: scale(1.1);
+    filter: sepia(0.5) drop-shadow(15px 15px 20px rgb(14, 2, 11));
+    border-color: rgb(31, 10, 4);
+}
+
+
+a {
+    /* Estilo para cambiar su color y eliminar el subrayado*/
+    color: rgb(127, 3, 243);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#pie_pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(43, 0, 100);
+    height: 40px;
+}
+
+
+.contacto {
+    text-align: center;
+}
+
+
+.contacto a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 10px;
+    vertical-align: middle;
+    padding-right: 25px;
+}
+
+
+.contacto img {
+    width: 24px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+
+
+.contacto a:hover {
+    color: #0073e6;
+}
+
+
+/* Medias queries */
+
+@media (max-width: 1024px) {
+    #cabecera img {
+        width: 120px;
+
+        height: auto;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+    #cabecera img {
+        width: 100px;
+
+        height: 110px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #cabecera img {
+        width: 80px;
+
+        height: auto;
+    }
+
+    #navegador{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #datos{
+        display: none;
+    }
+
+}
+
+@media print {
+
+    #cabecera {
+        margin: 0;
+        width: 100%;
+    }
+
+    #cabecera>div {
+        padding: 10%;
+
+    }
+
+    hr {
+        margin: 0;
+    }
+
+    #navegador {
+        margin: 0;
+    }
+
+    #navegador li {
+        display: none;
+    }
+
+    #imagen {
+        width: 100%;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    main article {
+        padding-bottom: 0;
+        padding-top: 0;
+
+    }
+
+    #pie_pagina {
+        margin: 0;
+    }
+
+}
