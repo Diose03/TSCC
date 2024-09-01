@@ -1,0 +1,157 @@
+/*Lucia Dioselyn Villa Figueroa*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.952), rgb(34, 32, 179));
+    /* border: solid greenyellow; Hago uso de los bordes a manera de apoyo para poder ajustar tamaños*/
+    display: flex;
+    flex-direction: column;
+    height: 56.9em;
+    justify-content: center;
+}
+
+
+h2 {
+    color: #CCCCCC;
+    text-align: center;
+}
+
+/*Etilos del botón para cambiar el logo*/
+#cambiarColor {
+    background: #3a137a;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #e9e9e9;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    height: 50px;
+}
+
+/*Estilos para el contenedor general que contiene todo lo relacionado a las API's y sus interacciones*/
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    padding: 20px;
+    border: 3px dotted rgb(203, 204, 125);
+    background-color: #a086be4f;
+}
+
+/*Estilos para el reproductor*/
+#reproductor {
+    width: 100%;
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 5px 3px;
+    background: #290355;
+    border: 2px dotted rgb(24, 13, 184);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/*Estilos para la sección del logo*/
+.logo {
+    /* border:solid #b91e8a; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Tamaño para la etiqueta del video*/
+video {
+    width: 100%;
+    height: auto;
+}
+
+/*Tamaño para la etiqueta de canvas*/
+canvas{
+    width: 210px;
+    height: 120px;
+}
+
+/*Estilos para botones de reproducir/pausar y silenciar/sonido*/
+#reproducir,
+#silenciar {
+    padding: 5px 10px;
+    width: 70px;
+    border: 1px solid #edd4f0;
+    background: #3d14f0;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #e9e9e9;
+}
+
+/*Separar botones*/
+#reproducir {
+    margin-right: 15px;
+}
+
+/*Ajustar y centrar*/
+#botones,
+#tiempo,
+#barra,
+#control {
+    display: flex;
+    align-items: center;
+}
+
+/*Estilos para lo contenido en nav*/
+nav {
+    /* border: solid salmon;*/
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 5px 0px;
+    padding: 0 10px;
+}
+
+/*Tamaños,posición y margen para el tiempo/conteo del video*/
+#tiempo {
+    float: left;
+    width: 45px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/*Estilos para el tiempo/conteo del video*/
+#tiempoAct {
+    margin: 4px 0px 0px 15px;
+    color: aliceblue;
+}
+
+/*Estilos para la barra contenedora del progreso del video*/
+#barra {
+    /* border: solid salmon;*/
+    position: relative;
+    width: 360px;
+    height: 16px;
+    padding: 2px;
+    margin: 2px 5px;
+    background: #EEEEEE;
+}
+
+/*Estilos para la barra de progreso del video*/
+#progreso {
+    width: 0;
+    height: 16px;
+    background: rgba(126, 5, 90, 0.767);
+}
+
+/*Tamaño y margen de la barra de sonido*/
+#volumen {
+    width: 100px;
+    margin: 0 10px;
+}
+
+.recuperar {
+    clear: both;
+}
+

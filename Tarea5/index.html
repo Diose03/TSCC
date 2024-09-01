@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Tarea 5:Integración de Video y Gráficos con JavaScript" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, API, Medios, Canvas" />
+    <meta name="author" content="Salvador Gonzalez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/pngaaa.com-1546032.png" type="image/x-icon">
+    <link rel="stylesheet" href="recursos/styles.css" />
+    <script src="recursos/scripts.js"></script>
+    <title>Aplicando Medios</title>
+</head>
+
+<body>
+    <!--Contenedor general para API medios y Canvas-->
+    <div class="container">
+
+        <!--Sección para API Canvas y su botón de cambio-->
+        <section class="logo">
+            <canvas id="canvas"></canvas>
+            <button id="cambiarColor">Cambiar Logo</button>
+        </section>
+
+        <!--Sección que contiene todo lo relacionado a la API de medios-->
+        <section id="reproductor">
+            <h2>Cyberpunk: Edgerunners OST</h2>
+            <!--Etiqueta video para insertar video-->
+            <video id="medio" width="720" height="400" poster="img/cyber.jpg">
+                <source src="video/cyber_city.mp4" />
+            </video>
+
+            <!--Se utiliza la etiqueta audio para poder manejar el sonido-->
+            <audio id="audio">
+                <source src="audio/play.mp3" type="audio/mpeg" />
+                Error al cargar video
+            </audio>
+
+            <nav>
+                <div id="botones">
+                    <!--Botones para play y mute el sonido-->
+                    <input type="button" id="reproducir" value=">" />
+                    <input type="button" id="silenciar" value="Silencio" />
+                </div>
+                <div id="tiempo">
+                    <!--Manejar los tiempos de reproducción-->
+                    <p id="tiempoAct">0.0</p>
+                </div>
+                <div id="barra">
+                    <!--Bara que muestra el tiempo de reproducción-->
+                    <div id="progreso"></div>
+                </div>
+                <div id="control">
+                    <!--Ajustar audio del sonido-->
+                    <input type="range" id="volumen" min="0" max="1" step="0.1" value="0.6" />
+                </div>
+                <div class="recuperar"></div>
+            </nav>
+        </section>
+
+    </div>
+</body>
+
+</html>
