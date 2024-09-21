@@ -1,0 +1,110 @@
+/* Lucia Dioselyn Villa Figueroa */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(100, 61, 209), rgb(24, 50, 136));
+    text-align: center;
+}
+
+h1 {
+    margin-top: 15px;
+    color: #f3f3f3;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #f3f3f3;
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilo para el formulario */
+#cajaformulario {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: #aa54e444;
+    border: 2px solid #d3aee2;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f8f8f8;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="file"]:hover {
+    background-color: #f3f3f3;
+    border-color: #4b0082;
+}
+
+/* Caja de datos */
+#cajadatos {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e5c9f054;
+    border: 2px solid #d3aee2;
+    border-radius: 10px; 
+    overflow-x: auto; 
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+#cajadatos p {
+    font-size: 16px;
+    color: #333;
+    overflow-wrap: break-word; 
+}
+
+/* Estilo para las listas generadas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #f9f9f94b;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #ac2fff;
+    border-radius: 5px;
+}
+
+li:nth-child(even) {
+    background-color: #f0f0f0a4;
+}
+
+/* Estilo para los botones */
+input[type="file"] {
+    background-color: #7b00acbe;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #cajaformulario, #cajadatos {
+        max-width: 100%;
+    }
+}

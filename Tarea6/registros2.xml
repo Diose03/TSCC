@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums>
+    <album>
+        <artist>Panda</artist>
+        <title>Arroz con Leche</title>
+        <songs>5</songs>
+        <year>2000</year>
+        <genre>Punk Rock</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>La Revancha del Príncipe Charro</title>
+        <songs>15</songs>
+        <year>2002</year>
+        <genre>Punk Rock</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Para ti con desprecio</title>
+        <songs>13</songs>
+        <year>2005</year>
+        <genre>Rock Alternativo</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Amantes Sunt Amentes</title>
+        <songs>14</songs>
+        <year>2006</year>
+        <genre>Rock Alternativo</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Bonanza</title>
+        <songs>12</songs>
+        <year>2012</year>
+        <genre>Rock Alternativo</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Sangre Fría</title>
+        <songs>13</songs>
+        <year>2013</year>
+        <genre>Rock Alternativo</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Poetics</title>
+        <songs>20</songs>
+        <year>2009</year>
+        <genre>Rock Alternativo</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Sinfonía Soledad</title>
+        <songs>19</songs>
+        <year>2007</year>
+        <genre>Rock Alternativo</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Pxndx MTV Unplugged</title>
+        <songs>13</songs>
+        <year>2010</year>
+        <genre>Acústico</genre>
+    </album>
+    <album>
+        <artist>Panda</artist>
+        <title>Todos Somos Pxndx</title>
+        <songs>20</songs>
+        <year>2015</year>
+        <genre>Rock Alternativo</genre>
+    </album>
+</albums>

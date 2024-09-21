@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums>
+    <album>
+        <artist>Therion</artist>
+        <title>Of Darkness</title>
+        <songs>10</songs>
+        <year>1992</year>
+        <genre>Symphonic Metal</genre>
+    </album>
+    <album>
+        <artist>Lacrimosa</artist>
+        <title>Inferno</title>
+        <songs>10</songs>
+        <year>1995</year>
+        <genre>Gothic Metal</genre>
+    </album>
+    <album>
+        <artist>Epica</artist>
+        <title>The Phantom Agony</title>
+        <songs>13</songs>
+        <year>2003</year>
+        <genre>Symphonic Metal</genre>
+    </album>
+        <album>
+        <artist>Dark Lunacy</artist>
+        <title>Forget me not</title>
+        <songs>11</songs>
+        <year>2003</year>
+        <genre>Symphonic Metal</genre>
+    </album>
+    <album>
+        <artist>Nightwish</artist>
+        <title>Once</title>
+        <songs>11</songs>
+        <year>2004</year>
+        <genre>Symphonic Metal</genre>
+    </album>
+    <album>
+        <artist>Draconian</artist>
+        <title>Arcane Rain Fell</title>
+        <songs>8</songs>
+        <year>2005</year>
+        <genre>Doom Symphonic Metal</genre>
+    </album>
+    <album>
+        <artist>Tarja Turunen</artist>
+        <title>My Winter Storm</title>
+        <songs>11</songs>
+        <year>2007</year>
+        <genre>Symphonic Metal</genre>
+    </album>
+    <album>
+        <artist>Maria Escarlata</artist>
+        <title>El misterio</title>
+        <songs>9</songs>
+        <year>2008</year>
+        <genre>Metal gótico</genre>
+    </album>
+        <album>
+        <artist>Anabanta</artist>
+        <title>Sin decir adiós</title>
+        <songs>12</songs>
+        <year>2010</year>
+        <genre>Metal gótico</genre>
+    </album>
+    <album>
+        <artist>Arch Enemy</artist>
+        <title>Stolen Life</title>
+        <songs>10</songs>
+        <year>2015</year>
+        <genre>Melodic Death Metal</genre>
+    </album>
+</albums>
